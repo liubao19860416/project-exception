@@ -1,0 +1,28 @@
+{
+    "systemName": "HELLO",
+    "systemCode": "211",
+    "modules": [
+        {
+            "name": "COMMON",
+            "code": "10",
+            "errorCodes": [
+                {
+                    "name": "NOT_FOUND",
+                    "value": "001",
+                    "description": "record not found"
+                }
+            ]
+        },
+        {
+            "name": "EXTERNAL",
+            "code": "20",
+            "errorCodes": [
+                {
+                    "name": "OPERATION_NOT_SUPPORTED",
+                    "value": "001",
+                    "description": "operation is not supported"
+                }
+            ]
+        }
+    ]
+}

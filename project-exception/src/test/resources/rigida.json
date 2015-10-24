@@ -1,0 +1,118 @@
+{
+    "systemName": "RIGIDA",
+    "systemCode": "311",
+    "modules": [
+        {
+            "name": "USERSERVICE",
+            "code": "01",
+            "errorCodes": [
+                {
+                    "name": "USER_NAME_NOT_FOUND",
+                    "value": "007",
+                    "description": "用户名无法找到！"
+                },{
+                    "name": "TRYNUM_LIMITED",
+                    "value": "008",
+                    "description": "密码输入错误次数过多，账户已锁！"
+                },{
+                    "name": "EMAIL_SEND",
+                    "value": "009",
+                    "description": "验证邮件发送失败！"
+                },{
+                    "name": "SMS_SEND",
+                    "value": "010",
+                    "description": "短信验证码发送失败！"
+                },{
+                    "name": "ARGUMENT_ERROR",
+                    "value": "011",
+                    "description": "參数错误！"
+                },{
+                    "name": "CAPTCHA_ERROR",
+                    "value": "012",
+                    "description": "验证码不正确"
+                },{
+                    "name": "CAPTCHA_INVALID",
+                    "value": "013",
+                    "description": "验证码失效"
+                },{
+                    "name": "ACCOUNT_UN_ACTIVE",
+                    "value": "014",
+                    "description": "帐户存在未激活"
+                },{
+                    "name": "ACCOUNT_NOT_EXIST",
+                    "value": "015",
+                    "description": "帐户不存在"
+                },{
+                    "name": "USER_NOT_LOGIN",
+                    "value": "016",
+                    "description": "用户未登陆"
+                },{
+                    "name": "USER_NAME_EXIST",
+                    "value": "017",
+                    "description": "用户名已注册！"
+                },
+                {
+                    "name": "MOBILEPHONE_EXIST",
+                    "value": "018",
+                    "description": "手机号已注册！"
+                },
+                {
+                    "name": "EMAIL_EXIST",
+                    "value": "019",
+                    "description": "邮箱已注册！"
+                },
+                {
+                    "name": "EMAIL_NOT_EXIST",
+                    "value": "020",
+                    "description": "邮箱不存在！"
+                },
+                {
+                    "name": "USER_NAME_NOT_EXIST",
+                    "value": "021",
+                    "description": "用户名不存在！"
+                },
+                {
+                    "name": "MOBILEPHONE_NOT_EXIST",
+                    "value": "022",
+                    "description": "手机号不存在！"
+                },
+                {
+                    "name": "SEND_VALICODE_FAILURE",
+                    "value": "023",
+                    "description": "验证信息发送失败！"
+                },
+                {
+                    "name": "LOGOUT_ERROR_MESSAGE",
+                    "value": "024",
+                    "description": "注销失败！"
+                },
+                {
+                    "name": "RESET_PASSWORD_FAILURE",
+                    "value": "025",
+                    "description": "密码设置失败！"
+                },
+                {
+                    "name": "UN_LOGIN",
+                    "value": "026",
+                    "description": "当前未登陆"
+                },
+                {
+                    "name": "CLIENT_ID_IS_NULL",
+                    "value": "027",
+                    "description": "clientId不能为空"
+                }
+            ]
+        }, 
+        {
+            "name": "DEVICESERVICE",
+            "code": "03",
+            "errorCodes": [
+                {
+                    "name": "INSTALL_ERROR_MESSAGE",
+                    "value": "002",
+                    "description": "信息采集失败！"
+                }
+            ]
+        }
+    ]
+}

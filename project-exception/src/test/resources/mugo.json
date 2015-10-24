@@ -1,0 +1,39 @@
+{
+    "systemName": "MUGO",
+    "systemCode": "314",
+    "modules": [
+        {
+            "name": "CONNECTION",
+            "code": "10",
+            "errorCodes": [
+                {
+                    "name": "CONNECTION_NOT_FOUND",
+                    "value": "001",
+                    "description": "连接 Rigida 出错了，请稍后重试 "
+                }
+            ]
+        },
+        {
+            "name": "EXTERNAL",
+            "code": "20",
+            "errorCodes": [
+                {
+                    "name": "EXTERNAL_J_PUSH",
+                    "value": "001",
+                    "description": "极光推送 "
+                },
+                {
+                    "name": "EXTERNAL_MIUI_IO",
+                    "value": "002",
+                    "description": "小米推送服务器读取文件出错了 "
+                },
+                {
+                    "name": "EXTERNAL_MIUI_PARSE",
+                    "value": "003",
+                    "description": "小米推送服务器转换出错了 "
+                }
+                
+            ]
+        }
+    ]
+}
